@@ -26,7 +26,7 @@ const Header = ({
 
   const handleSelectChange = (event) => {
     const id = event.target.value;
-    const user = userList.find(user => user.id === id);
+    const user = userList.find(user => user.id == id);
     setSelectedUser(user);
   }
 
