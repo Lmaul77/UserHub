@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start:dev": "react-scripts start",
-    "client:build": "react-scripts build"
+    "client:build": "react-scripts build",
+    "build": "NODE_ENV=production react-scripts build"
   },
   "keywords": [],
   "author": "",
